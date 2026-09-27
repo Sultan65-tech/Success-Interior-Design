@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+:root { font-family: 'DM Sans', sans-serif; color: #f7f5ef; background: #111313; font-synthesis: none; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #111313; }
+* { box-sizing: border-box; }
+.font-display { font-family: 'Playfair Display', serif; }
+::selection { background: #c5a46d; color: #111313; }
+.no-scrollbar::-webkit-scrollbar { display:none; }
+.no-scrollbar { scrollbar-width:none; }
+.gold-gradient { background: linear-gradient(135deg,#e4c994 0%,#b38b4e 55%,#f1ddae 100%); }
+.hero-glow { box-shadow: 0 0 100px rgba(198,160,92,.13); }
+.card-glow:hover { box-shadow: 0 24px 80px rgba(0,0,0,.35), 0 0 45px rgba(198,160,92,.08); }
+.range { accent-color:#c5a46d; }
+input[type=range] { width:100%; }
