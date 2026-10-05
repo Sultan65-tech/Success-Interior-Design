@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react'
 
 const Card = ({ item, i, onOpen, onQuote }) => {
   if (!item) return null
-
+// ICon Props  
   return (  
     <motion.article 
       layout 

@@ -10,7 +10,7 @@ function Navbar({mobileOpen,setMobileOpen,openBooking}){
     ['About','#about'],
     ['Contact','#contact']];
     return (
-    <header className="bg-white- fixed inset-x-0 top-0 z-50 border-b border-blue/100 bord  backdrop-blur-lg shadow-white-300 shadow-2xl">
+    <header className="bg-white/60 fixed inset-x-0 top-0 z-50 border-b border-blue/100 bord  backdrop-blur-lg shadow-white-300 shadow-2xl">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
             <a href="#" className="flex items-center gap-3">
                 <span className="grid h-50 w-50  place-items-center rounded-xl ">

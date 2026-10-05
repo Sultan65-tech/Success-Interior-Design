@@ -7,11 +7,9 @@ function Footer(){
             <div className="mx-auto max-w-7xl px-5 py-14 md:px-8">
                 <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
                     <div className="lg:col-span-2"><div className="flex items-center gap-3">
-                        <span className="grid h-9 w-9 place-items-center rounded-xl gold-gradient text-[#171817]">
-                            <Sun className="h-5 w-5"/></span>
-                            <span>
-                                <b className="block text-sm tracking-[.16em]">APEX</b><small className="block text-[8px] tracking-[.32em] text-white/40">BLINDS & SHADES</small></span>
-                                </div>
+                        <span className="grid  place-items-center  gold-gradient text-[#ffffff]">
+                                               <img src='../logo.png' className='w-30 h-30'/></span>
+                                                </div>
                                 <p className="mt-5 max-w-md text-sm leading-7 text-white/35">Custom window treatments, precision measurement and professional installation for homes and workspaces.</p>
                                 <div className="mt-6 flex gap-2">
                                     <a href="#" className="grid h-10 w-10 place-items-center rounded-full border border-white/8">

@@ -25,7 +25,11 @@ export const Data = [
   { title: 'Faux Wood Venetian', desc: 'Moisture-resistant slats with a refined painted finish.', tags: ['Waterproof', 'Wipeable', 'UV Protection'], price: '$$', img: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85' },
     { title: 'Motorized Roller', desc: 'Clean-lined shades built for effortless smart control.', tags: ['Motorized', 'Easy Clean', 'Smart Home'], price: '$$$', img: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85' },
     { title: 'Soft Light Roller', desc: 'Diffused daylight that keeps busy kitchens bright and calm.', tags: ['Light Filtering', 'UV Protection', 'Custom Fit'], price: '$$', img: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85' },
-      { title: 'Lined Roman', desc: 'Soft fabric texture with practical privacy and light control.', tags: ['Lined', 'Quiet', 'Premium Fabric'], price: '$$$', img: 'https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1200&q=85' }
+      { title: 'Lined Roman', desc: 'Soft fabric texture with practical privacy and light control.', tags: ['Lined', 'Quiet', 'Premium Fabric'], price: '$$$', img: 'https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1200&q=85' },
+          { title: 'Lined Roman', desc: 'Soft fabric texture with practical privacy and light control.', tags: ['Lined', 'Quiet', 'Premium Fabric'], price: '$$$', img: 'https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=crop&w=1200&q=85' },
+              { title: 'Total Blackout Roller', desc: 'Sleep-first shading with a sleek, minimal silhouette.', tags: ['Total Blackout', 'Privacy', 'Easy Clean'], price: '$$', img: 'https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=1200&q=85' },
+
+
 
 ]
 
