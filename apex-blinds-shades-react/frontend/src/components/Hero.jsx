@@ -1,5 +1,15 @@
 import React from 'react'
+import { RollingText } from '../ui/RollingText'
 
+
+const serviceList = [
+"Precision-Fitted Blinds",
+"Motorized Shades",
+    "Smart Blinds",
+    "Solar Screens",
+    "Custom Drapery",
+    "Office Windows"
+]
 const Hero = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
@@ -25,7 +35,7 @@ const Hero = () => {
 
         {/* Main Headline */}
         <h1 className="text-4xl sm:text-6xl font-extrabold text-white leading-tight mb-6 drop-shadow-md">
-          Transform Your Space With <span className="text-[#FFBD00]">Precision-Fitted Blinds</span>
+          Transform Your Space With <span className="text-[#FFBD00]"><RollingText words={serviceList}/></span>
         </h1>
 
         {/* Subheadline */}
